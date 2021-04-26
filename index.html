@@ -6,7 +6,12 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <link rel="stylesheet" href="app/scss/style.css">
+
+  <!-- FONTAWESOME -->
+  <link rel="stylesheet" href="css/all.css">
+
+  <!-- COSTUME CSS -->
+  <link rel="stylesheet" href="css/style.css">
 
   <!-- GOOGLE FONT -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -22,16 +27,16 @@
   </style>
 </head>
 <body>
-
+  
   <header class="header">
-    <img class="header__logo" src="images/logo.svg" alt="huddle"/>
+    <img class="header__logo" src="images/logo.svg" width="200" alt="huddle"/>
   </header>
 
-  <main class="hero">
-    <section class="hero__image">
+  <main>
+    <section class="heroImage">
       <img src="images/illustration-mockups.svg" alt="illustration-mockups">
     </section>
-    <section class="hero__text">
+    <section class="heroText">
       
       <h1>Build The Community Your Fans Will Love</h1>
 
@@ -40,12 +45,23 @@
         Create connections with your users as you engage in genuine discussion.
       </p>
 
-      <button class="button">Register</button>
+      <a href="#" class="cta">Register</a>
       
     </section>
   </main>
 
-  <footer>
+  <footer class="footer">
+    <div class="footer__icon">
+      <a href="#">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="#">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="#">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">MOISE Rajesearison</a>.
